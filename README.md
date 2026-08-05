@@ -1,4 +1,4 @@
-```markdown
+
 # Global Sales & Profit Performance Dashboard
 
 ## Project Overview
@@ -11,8 +11,6 @@ The dashboard consists of two interactive report pages:
 
 - **Executive Overview** – Provides a high-level summary of sales performance, revenue trends, and market distribution.
 - **Profit & Operations** – Focuses on profitability, operational efficiency, cost analysis, and shipping performance.
-
----
 
 ## Problem Statement
 
@@ -32,8 +30,6 @@ Without a centralized reporting solution, these questions require extensive manu
 
 This project addresses these challenges by transforming raw sales data into an interactive executive dashboard that delivers clear, actionable insights into financial performance, operational efficiency, and business growth.
 
----
-
 ## Business Objectives
 
 The primary objective of this project is to develop a centralized Business Intelligence dashboard that enables stakeholders to:
@@ -47,8 +43,6 @@ The primary objective of this project is to develop a centralized Business Intel
 - Identify opportunities to improve profitability and operational processes.
 - Support strategic business planning through data-driven insights.
 
----
-
 ## Dataset Information
 
 | Attribute | Details |
@@ -60,8 +54,6 @@ The primary objective of this project is to develop a centralized Business Intel
 | **Coverage** | Multiple Countries and Global Regions |
 | **Product Categories** | Multiple Item Types |
 | **Metrics Analyzed** | Revenue, Profit, Cost, Orders, Units Sold, Shipping Days |
-
----
 
 # Dashboard Structure
 
@@ -87,8 +79,6 @@ The **Executive Overview** page provides a comprehensive snapshot of the company
 - Online vs. Offline Revenue Distribution
 - Interactive slicers for Region and Year
 
----
-
 ## Profit & Operations
 
 The **Profit & Operations** page provides deeper insight into profitability, cost management, and operational performance, helping stakeholders evaluate how efficiently the business operates.
@@ -111,8 +101,6 @@ The **Profit & Operations** page provides deeper insight into profitability, cos
 - Online vs. Offline Profit Distribution
 - Interactive slicers for Region and Year
 
----
-
 # Technical Approach
 
 The dashboard was developed following a structured Business Intelligence workflow to ensure data accuracy, report performance, scalability, and an intuitive user experience.
@@ -130,8 +118,6 @@ The preparation process included:
 - Ensuring data consistency
 - Preparing the dataset for efficient analysis
 
----
-
 ## 2. Data Modeling
 
 A scalable data model was designed to improve report performance and support advanced analytical calculations.
@@ -142,9 +128,7 @@ The modeling process included:
 - Implementing a Star Schema model
 - Building a dedicated Calendar table
 - Marking the Calendar table as the official Date table
-- Optimizing relationships for Time Intelligence calculations
-
----
+- Optimizing relationships for Time Intelligence calculation.
 
 ## 3. DAX Development
 
@@ -167,8 +151,6 @@ Key measures include:
 
 Time Intelligence functions were implemented to enable dynamic comparisons between current and previous-year performance.
 
----
-
 ## 4. Dashboard Design
 
 The report was designed using modern Business Intelligence best practices with a strong focus on usability, readability, and executive reporting.
@@ -183,7 +165,7 @@ Key design considerations include:
 - Responsive visual arrangement
 - Minimal visual clutter
 - Cross-filtering between visuals
-```markdown
+
 # Tools & Technologies Used
 
 | Tool / Technology | Purpose |
@@ -196,8 +178,6 @@ Key design considerations include:
 | **Power BI Maps** | Country-level geographical analysis |
 | **Interactive Slicers** | Dynamic report filtering |
 | **Conditional Formatting** | KPI indicators and performance highlighting |
-
----
 
 # Key Insights
 
@@ -285,8 +265,6 @@ This project demonstrates practical experience across multiple areas of Business
 - Data Storytelling
 - Performance Analysis
 - Interactive Dashboard Development
-
----
 
 # Dashboard Preview
 
