@@ -220,66 +220,52 @@ The dashboard reveals several important business insights that can support strat
 - Revenue distribution varies considerably across countries, highlighting key markets that drive overall business performance.
 - Several countries consistently contribute a significant share of revenue, while others present opportunities for future growth through localized business strategies.
 
-### Product Performance
+# Product Performance
 
 - Household and Office Supplies generated the highest revenue, making them the company's strongest-performing product categories.
 - Fruits and Beverages contributed the least revenue, indicating opportunities for pricing optimization, product repositioning, or targeted marketing campaigns.
 
-### Sales Channel Performance
+# Sales Channel Performance
 
 - Online and Offline sales channels contribute almost equally to total revenue and profit, demonstrating a well-balanced sales strategy across both channels.
 
-### Operational Performance
+# Operational Performance
 
 - The average shipping time of **25.04 days** suggests room for improving logistics efficiency and enhancing customer satisfaction.
 - Although overall revenue and profit increased significantly, **Average Revenue per Order** and **Average Profit per Order** remained relatively unchanged Year-over-Year, indicating that business growth was primarily driven by increased sales volume rather than higher-value transactions.
-
----
 
 # Business Recommendations
 
 Based on the insights generated from the dashboard, the following recommendations can help improve business performance and operational efficiency.
 
-## Expand High-Performing Markets
+# Expand High-Performing Markets
 
 Increase investment in high-performing regions and countries by strengthening distribution networks, expanding product availability, and implementing customer retention strategies to maximize long-term growth.
 
----
-
-## Improve Performance in Low-Revenue Markets
+# Improve Performance in Low-Revenue Markets
 
 Conduct market research to understand the factors limiting performance in lower-revenue countries. Introduce localized marketing campaigns, pricing strategies, and promotional activities to improve market penetration and customer acquisition.
 
----
-
-## Focus on High-Performing Product Categories
+# Focus on High-Performing Product Categories
 
 Allocate additional inventory, marketing resources, and promotional efforts toward high-performing categories such as **Household** and **Office Supplies**, which consistently generate the highest revenue and profit.
 
----
-
-## Reassess Low-Performing Products
+# Reassess Low-Performing Products
 
 Evaluate the pricing, demand, and profitability of lower-performing categories such as **Fruits** and **Beverages**. Consider repositioning these products, offering targeted promotions, or optimizing inventory levels to improve overall performance.
 
----
-
-## Optimize Logistics Operations
+# Optimize Logistics Operations
 
 Reduce average shipping time by improving warehouse operations, strengthening supplier coordination, and partnering with more efficient logistics providers. Faster deliveries can improve customer satisfaction and increase repeat business.
 
----
-
-## Maintain a Balanced Sales Strategy
+# Maintain a Balanced Sales Strategy
 
 Continue investing in both Online and Offline sales channels while identifying new opportunities to improve customer engagement, digital marketing performance, and the overall buying experience.
 
----
-
-## Monitor Performance Continuously
+# Monitor Performance Continuously
 
 Regularly monitor Year-over-Year KPIs, profitability metrics, and operational indicators to identify emerging trends early, measure business performance accurately, and support proactive decision-making.
-```
+
 # Skills Demonstrated
 
 This project demonstrates practical experience across multiple areas of Business Intelligence and Data Analytics, including:
@@ -313,7 +299,7 @@ The Executive Overview page provides decision-makers with a high-level summary o
 ## Profit & Operations
 
 The Profit & Operations page delivers deeper operational insights by analyzing profitability, costs, shipping performance, units sold, and product performance. It helps stakeholders understand operational efficiency and identify opportunities to improve business performance.
-
+# https://github.com/Oreoluwa456/Global-Sales-Profit-Performance-Dashboard/blob/main/Profit%20And%20Operations.png
 
 # Conclusion
 
