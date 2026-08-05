@@ -173,21 +173,14 @@ Key design considerations include:
 
 # Tools & Technologies Used
 
-**Power BI Desktop:** Dashboard development and interactive reporting
-
-**Power Query:** Data extraction, cleaning, and transformation
-
-**DAX (Data Analysis Expressions):** KPI calculations, custom measures, and Time Intelligence
-
-**Data Modeling:** Relationship management and Star Schema implementation
-
-**Calendar Table:** Date intelligence and Year-over-Year analysis
-
-**Power BI Maps:** Country-level geographical analysis
-
-**Interactive Slicers:** Dynamic report filtering
-
-**Conditional Formatting:** KPI indicators and performance highlighting
+- Power BI Desktop:** Dashboard development and interactive reporting
+- Power Query:** Data extraction, cleaning, and transformation
+- DAX (Data Analysis Expressions):** KPI calculations, custom measures, and Time Intelligence
+- Data Modeling:** Relationship management and Star Schema implementation
+- Calendar Table:** Date intelligence and Year-over-Year analysis
+- Power BI Maps:** Country-level geographical analysis (Azure Map)
+- Interactive Slicers:** Dynamic report filtering
+- Conditional Formatting:** KPI indicators and performance highlighting
 
 # Key Insights
 
@@ -228,31 +221,31 @@ The dashboard reveals several important business insights that can support strat
 
 Based on the insights generated from the dashboard, the following recommendations can help improve business performance and operational efficiency.
 
-# Expand High-Performing Markets
+- Expand High-Performing Markets
 
 Increase investment in high-performing regions and countries by strengthening distribution networks, expanding product availability, and implementing customer retention strategies to maximize long-term growth.
 
-# Improve Performance in Low-Revenue Markets
+- Improve Performance in Low-Revenue Markets
 
 Conduct market research to understand the factors limiting performance in lower-revenue countries. Introduce localized marketing campaigns, pricing strategies, and promotional activities to improve market penetration and customer acquisition.
 
-# Focus on High-Performing Product Categories
+- Focus on High-Performing Product Categories
 
 Allocate additional inventory, marketing resources, and promotional efforts toward high-performing categories such as **Household** and **Office Supplies**, which consistently generate the highest revenue and profit.
 
-# Reassess Low-Performing Products
+- Reassess Low-Performing Products
 
 Evaluate the pricing, demand, and profitability of lower-performing categories such as **Fruits** and **Beverages**. Consider repositioning these products, offering targeted promotions, or optimizing inventory levels to improve overall performance.
 
-# Optimize Logistics Operations
+- Optimize Logistics Operations
 
 Reduce average shipping time by improving warehouse operations, strengthening supplier coordination, and partnering with more efficient logistics providers. Faster deliveries can improve customer satisfaction and increase repeat business.
 
-# Maintain a Balanced Sales Strategy
+- Maintain a Balanced Sales Strategy
 
 Continue investing in both Online and Offline sales channels while identifying new opportunities to improve customer engagement, digital marketing performance, and the overall buying experience.
 
-# Monitor Performance Continuously
+- Monitor Performance Continuously
 
 Regularly monitor Year-over-Year KPIs, profitability metrics, and operational indicators to identify emerging trends early, measure business performance accurately, and support proactive decision-making.
 
@@ -310,4 +303,4 @@ Aspiring Data Analyst with a passion for transforming raw data into actionable b
 
 - LinkedIn: *(Add your LinkedIn profile)*
 - GitHub: *(Add your GitHub profile)*
-- Email: *(oreisrael@gmail.com)
+- Email: *(oreisrael4@gmail.com)
