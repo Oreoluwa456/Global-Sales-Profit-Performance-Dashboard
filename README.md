@@ -307,6 +307,7 @@ This project demonstrates practical experience across multiple areas of Business
 ## Executive Overview
 
 The Executive Overview page provides decision-makers with a high-level summary of business performance through interactive KPIs, revenue trends, regional analysis, country-level performance, product contribution, and sales channel distribution.
+# https://github.com/Oreoluwa456/Global-Sales-Profit-Performance-Dashboard/blob/main/Executive%20Overview.png
 
 
 ## Profit & Operations
