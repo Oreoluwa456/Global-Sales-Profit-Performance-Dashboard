@@ -1,244 +1,338 @@
-Global Sales & Profit Performance Dashboard
- Project Overview
+```markdown
+# Global Sales & Profit Performance Dashboard
 
-The Global Sales & Profit Performance Dashboard is an interactive Business Intelligence solution developed in Power BI to analyze global sales performance, profitability, and operational efficiency using a dataset containing 100,000 sales records. The dashboard transforms large volumes of transactional sales data into meaningful business insights through interactive visualizations, dynamic KPIs, and time-based analysis.
+## Project Overview
 
-Designed with executives and business stakeholders in mind, the report provides a centralized view of financial and operational performance, enabling users to monitor business health, evaluate trends, identify growth opportunities, and make data-driven decisions with confidence.
+The **Global Sales & Profit Performance Dashboard** is an interactive Business Intelligence solution developed in **Power BI** to analyze global sales performance, profitability, and operational efficiency using a dataset containing **100,000 sales records**. The dashboard transforms large volumes of transactional sales data into meaningful business insights through interactive visualizations, dynamic KPIs, and time-based analysis.
+
+Designed with executives and business stakeholders in mind, the report provides a centralized view of financial and operational performance, enabling users to monitor business health, evaluate trends, identify growth opportunities, and make informed decisions backed by data.
 
 The dashboard consists of two interactive report pages:
 
-Executive Overview – Provides a high-level summary of sales performance, revenue trends, and market distribution.
-Profit & Operations – Focuses on profitability, operational efficiency, cost analysis, and shipping performance.
- Problem Statement
+- **Executive Overview** – Provides a high-level summary of sales performance, revenue trends, and market distribution.
+- **Profit & Operations** – Focuses on profitability, operational efficiency, cost analysis, and shipping performance.
 
-Organizations generate thousands of sales transactions across different countries, regions, products, and sales channels every day. While this data contains valuable business information, it often exists in raw spreadsheets or databases that make analysis time-consuming and difficult.
+---
 
-Business leaders frequently need answers to questions such as:
+## Problem Statement
 
-How much revenue and profit is the business generating?
-Is performance improving compared to the previous year?
-Which regions and countries contribute the most revenue?
-Which product categories are driving profitability?
-Which sales channel performs better?
-How efficient are operational processes such as shipping?
-Where should future investments be focused?
+Organizations generate thousands of sales transactions across different countries, regions, products, and sales channels every day. Although this information contains valuable business insights, it often exists in raw spreadsheets or disconnected systems that make analysis slow and inefficient.
 
-Without an interactive reporting solution, these questions require extensive manual analysis, delaying decision-making and increasing the risk of overlooking important business trends.
+Business leaders need quick answers to questions such as:
 
-This project addresses these challenges by transforming raw sales data into an executive-level dashboard that provides real-time insights into financial performance, operational efficiency, and overall business growth.
+- How much revenue and profit is the business generating?
+- Is business performance improving compared to previous years?
+- Which countries and regions contribute the most revenue?
+- Which product categories generate the highest profit?
+- How do Online and Offline sales channels compare?
+- How efficient is the company's shipping process?
+- Where should management focus future investments?
 
- Business Objectives
+Without a centralized reporting solution, these questions require extensive manual analysis, delaying decision-making and increasing the likelihood of overlooking important trends.
+
+This project addresses these challenges by transforming raw sales data into an interactive executive dashboard that delivers clear, actionable insights into financial performance, operational efficiency, and business growth.
+
+---
+
+## Business Objectives
 
 The primary objective of this project is to develop a centralized Business Intelligence dashboard that enables stakeholders to:
 
-Monitor company-wide sales and profitability.
-Compare current performance against the previous year.
-Track Year-over-Year (YoY) business growth.
-Analyze revenue across regions, countries, and product categories.
-Evaluate operational efficiency using shipping performance metrics.
-Compare Online and Offline sales performance.
-Identify opportunities to improve profitability and operational processes.
-Support strategic business planning through data-driven insights. Dataset Information
-Attribute	Details
-Dataset	Global Sales Dataset
-Dataset Size	100,000 Sales Records
-Time Period	2010 – 2017
-Sales Channels	Online & Offline
-Coverage	Multiple Countries & Global Regions
-Product Categories	Multiple Item Types
-Metrics	Revenue, Profit, Cost, Orders, Units Sold, Shipping Days
-Dashboard Structure
-Page 1 – Executive Overview
+- Monitor company-wide sales and profitability.
+- Compare current performance against the previous year.
+- Track Year-over-Year (YoY) business growth.
+- Analyze revenue across regions, countries, and product categories.
+- Evaluate operational efficiency using shipping performance metrics.
+- Compare Online and Offline sales performance.
+- Identify opportunities to improve profitability and operational processes.
+- Support strategic business planning through data-driven insights.
 
-The Executive Overview page provides a comprehensive snapshot of the company's overall sales performance, allowing executives to monitor key business metrics at a glance.
+---
 
-Executive KPIs
-KPI	Current Value	YoY Performance
-Total Revenue	133.61 Billion	▲ 14.9% vs Previous Year
-Total Orders	100K	▲ 15.0% vs Previous Year
-Total Profit	39.41 Billion	▲ 15.0% vs Previous Year
-Units Sold	500 Million	▲ 14.9% vs Previous Year
-Visualizations
-Revenue Trend by Month
-Revenue by Region
-Revenue by Country
-Revenue by Item Type
-Online vs. Offline Revenue Distribution
-Interactive Filters (Region and Year)
-Page 2 – Profit & Operations
+## Dataset Information
 
-The Profit & Operations page focuses on operational efficiency, profitability, and business performance drivers.
+| Attribute | Details |
+|-----------|---------|
+| **Dataset** | Global Sales Dataset |
+| **Dataset Size** | 100,000 Sales Records |
+| **Time Period** | 2010 – 2017 |
+| **Sales Channels** | Online & Offline |
+| **Coverage** | Multiple Countries and Global Regions |
+| **Product Categories** | Multiple Item Types |
+| **Metrics Analyzed** | Revenue, Profit, Cost, Orders, Units Sold, Shipping Days |
 
-Operational KPIs
-KPI	Current Value	YoY Performance
-Total Cost	94.20 Billion	▲ 14.9% vs Previous Year
-Average Profit per Order	394.09K	▼ 0.0% vs Previous Year
-Average Revenue per Order	1.34 Million	▼ 0.1% vs Previous Year
-Average Shipping Days	25.04 Days	▼ 0.1% vs Previous Year
-Visualizations
-Profit Trend by Month
-Profit by Region
-Profit by Item Type
-Units Sold by Month
-Online vs. Offline Profit Distribution
-Interactive Filters (Region and Year)
-Technical Approach
+---
 
-The dashboard was developed following a structured Business Intelligence workflow to ensure data accuracy, report performance, scalability, and user experience.
+# Dashboard Structure
 
-1. Data Preparation
+## Executive Overview
 
-The raw sales dataset was imported into Power BI and transformed using Power Query.
+The **Executive Overview** page provides a comprehensive snapshot of the company's overall sales performance, allowing executives to monitor key business metrics at a glance.
 
-Key preparation tasks included:
+### Executive KPIs
 
-Reviewing missing values
-Standardizing data types
-Removing unnecessary columns
-Validating date fields
-Ensuring data consistency
-Preparing the dataset for efficient analysis
-2. Data Modeling
+| KPI | Current Value | Year-over-Year Performance |
+|------|--------------:|--------------------------:|
+| **Total Revenue** | **133.61 Billion** | **▲ 14.9% vs Previous Year** |
+| **Total Orders** | **100K** | **▲ 15.0% vs Previous Year** |
+| **Total Profit** | **39.41 Billion** | **▲ 15.0% vs Previous Year** |
+| **Units Sold** | **500 Million** | **▲ 14.9% vs Previous Year** |
 
-A scalable data model was designed to improve report performance and support advanced calculations.
+### Dashboard Visuals
+
+- Revenue Trend by Month
+- Revenue by Region
+- Revenue by Country
+- Revenue by Item Type
+- Online vs. Offline Revenue Distribution
+- Interactive slicers for Region and Year
+
+---
+
+## Profit & Operations
+
+The **Profit & Operations** page provides deeper insight into profitability, cost management, and operational performance, helping stakeholders evaluate how efficiently the business operates.
+
+### Operational KPIs
+
+| KPI | Current Value | Year-over-Year Performance |
+|------|--------------:|--------------------------:|
+| **Total Cost** | **94.20 Billion** | **▲ 14.9% vs Previous Year** |
+| **Average Profit per Order** | **394.09K** | **▼ 0.0% vs Previous Year** |
+| **Average Revenue per Order** | **1.34 Million** | **▼ 0.1% vs Previous Year** |
+| **Average Shipping Days** | **25.04 Days** | **▼ 0.1% vs Previous Year** |
+
+### Dashboard Visuals
+
+- Profit Trend by Month
+- Profit by Region
+- Profit by Item Type
+- Units Sold by Month
+- Online vs. Offline Profit Distribution
+- Interactive slicers for Region and Year
+
+---
+
+# Technical Approach
+
+The dashboard was developed following a structured Business Intelligence workflow to ensure data accuracy, report performance, scalability, and an intuitive user experience.
+
+## 1. Data Preparation
+
+The raw sales dataset was imported into Power BI and transformed using **Power Query**.
+
+The preparation process included:
+
+- Reviewing missing values
+- Standardizing data types
+- Removing unnecessary columns
+- Validating date fields
+- Ensuring data consistency
+- Preparing the dataset for efficient analysis
+
+---
+
+## 2. Data Modeling
+
+A scalable data model was designed to improve report performance and support advanced analytical calculations.
 
 The modeling process included:
 
-Creating relationships between tables
-Implementing a Star Schema model
-Building a dedicated Calendar table
-Marking the Calendar table as the official Date Table
-Optimizing relationships for Time Intelligence calculations
-3. DAX Development
+- Creating relationships between tables
+- Implementing a Star Schema model
+- Building a dedicated Calendar table
+- Marking the Calendar table as the official Date table
+- Optimizing relationships for Time Intelligence calculations
 
-Custom DAX measures were developed to calculate key business metrics and performance indicators.
+---
 
-Measures created include:
+## 3. DAX Development
 
-Total Revenue
-Total Profit
-Total Cost
-Total Orders
-Units Sold
-Average Revenue per Order
-Average Profit per Order
-Average Shipping Days
-Previous Year (PY) Measures
-Year-over-Year (YoY) Growth
-Dynamic KPI Indicators
-Conditional Color Formatting
+Custom DAX measures were developed to calculate business metrics and performance indicators.
+
+Key measures include:
+
+- Total Revenue
+- Total Profit
+- Total Cost
+- Total Orders
+- Units Sold
+- Average Revenue per Order
+- Average Profit per Order
+- Average Shipping Days
+- Previous Year (PY) Measures
+- Year-over-Year (YoY) Growth
+- Dynamic KPI Indicators
+- Conditional Color Formatting
 
 Time Intelligence functions were implemented to enable dynamic comparisons between current and previous-year performance.
 
-4. Dashboard Design
+---
 
-The report was designed using modern Business Intelligence best practices with a focus on usability and executive reporting.
+## 4. Dashboard Design
 
-Design features include:
+The report was designed using modern Business Intelligence best practices with a strong focus on usability, readability, and executive reporting.
 
-Executive-friendly dashboard layout
-Dark-themed interface for improved readability
-Interactive slicers for dynamic filtering
-KPI cards with sparklines
-Consistent color palette
-Responsive visual arrangement
-Minimal visual clutter
-Cross-filtering between visuals
+Key design considerations include:
 
-The result is an intuitive dashboard that allows users to explore business performance quickly and efficiently.
+- Executive-friendly dashboard layout
+- Dark-themed interface for improved readability
+- Interactive slicers for dynamic filtering
+- KPI cards with sparklines
+- Consistent color palette
+- Responsive visual arrangement
+- Minimal visual clutter
+- Cross-filtering between visuals
+```markdown
+# Tools & Technologies Used
 
- Tools & Technologies Used
-Tool / Technology	Purpose
-Power BI Desktop	Dashboard development and interactive reporting
-Power Query	Data extraction, cleaning, and transformation
-DAX (Data Analysis Expressions)	KPI calculations, measures, and Time Intelligence
-Data Modeling	Relationship management and Star Schema implementation
-Calendar Table	Date Intelligence and Year-over-Year analysis
-Power BI Maps	Country-level geographical analysis
-Interactive Slicers	Dynamic report filtering
-Conditional Formatting	KPI performance indicators and visual highlighting
- Key Insights
-The business generated 133.61 Billion in total revenue, representing a 14.9% Year-over-Year increase, indicating sustained business growth.
-Total profit reached 39.41 Billion, reflecting a 15.0% increase compared to the previous year, demonstrating healthy profitability.
-The company processed 100,000 orders and sold over 500 Million units, highlighting strong operational capacity and customer demand.
-Total operational cost amounted to 94.20 Billion, increasing by 14.9%, closely aligned with overall revenue growth.
-Europe and Sub-Saharan Africa emerged as the strongest-performing regions, while North America generated comparatively lower revenue, presenting opportunities for expansion.
-Revenue distribution across countries reveals key markets driving sales while identifying countries with growth potential.
-Household and Office Supplies generated the highest revenue, making them the company's strongest-performing product categories.
-Fruits and Beverages contributed the least revenue, suggesting opportunities for product optimization or targeted marketing initiatives.
-Online and Offline channels contribute almost equally to overall revenue and profit, indicating a balanced multi-channel sales strategy.
-The average shipping time of 25.04 days suggests room for improving logistics efficiency and customer satisfaction.
-While total revenue and profit increased significantly, the Average Revenue per Order and Average Profit per Order remained relatively unchanged year-over-year, indicating that business growth was driven primarily by increased sales volume rather than higher-value transactions.
- Business Recommendations
+| Tool / Technology | Purpose |
+|-------------------|----------|
+| **Power BI Desktop** | Dashboard development and interactive reporting |
+| **Power Query** | Data extraction, cleaning, and transformation |
+| **DAX (Data Analysis Expressions)** | KPI calculations, custom measures, and Time Intelligence |
+| **Data Modeling** | Relationship management and Star Schema implementation |
+| **Calendar Table** | Date intelligence and Year-over-Year analysis |
+| **Power BI Maps** | Country-level geographical analysis |
+| **Interactive Slicers** | Dynamic report filtering |
+| **Conditional Formatting** | KPI indicators and performance highlighting |
 
-Based on the insights generated from the dashboard, the following recommendations are proposed:
+---
 
-Expand High-Performing Markets
+# Key Insights
 
-Increase investment in high-performing regions and countries by strengthening distribution channels, expanding product availability, and implementing customer retention strategies.
+The dashboard reveals several important business insights that can support strategic decision-making.
 
-Improve Performance in Low-Revenue Markets
+### Overall Business Performance
 
-Conduct market research to identify barriers affecting lower-performing countries and implement localized pricing strategies, promotional campaigns, and targeted marketing initiatives.
+- The business generated **133.61 Billion** in total revenue, representing a **14.9% Year-over-Year increase**, demonstrating consistent business growth.
+- Total profit reached **39.41 Billion**, reflecting a **15.0% increase** compared to the previous year, indicating strong profitability.
+- The company processed approximately **100,000 orders** and sold over **500 Million units**, highlighting strong customer demand and operational capacity.
+- Total operational cost amounted to **94.20 Billion**, increasing by **14.9%**, closely aligning with overall revenue growth.
 
-Focus on High-Performing Product Categories
+### Regional Performance
 
-Allocate additional inventory, marketing resources, and promotional efforts toward high-performing categories such as Household and Office Supplies to maximize revenue growth.
+- Europe and Sub-Saharan Africa emerged as the strongest-performing regions in terms of both revenue and profit.
+- North America generated comparatively lower revenue, suggesting opportunities for market expansion and improved sales strategies.
 
-Reassess Low-Performing Products
+### Country Performance
 
-Evaluate the pricing, demand, and profitability of lower-performing product categories such as Fruits and Beverages. Consider product repositioning, promotional offers, or inventory optimization to improve overall performance.
+- Revenue distribution varies considerably across countries, highlighting key markets that drive overall business performance.
+- Several countries consistently contribute a significant share of revenue, while others present opportunities for future growth through localized business strategies.
 
-Optimize Logistics Operations
+### Product Performance
 
-Reduce average shipping time by improving warehouse operations, strengthening supplier coordination, and partnering with more efficient logistics providers.
+- Household and Office Supplies generated the highest revenue, making them the company's strongest-performing product categories.
+- Fruits and Beverages contributed the least revenue, indicating opportunities for pricing optimization, product repositioning, or targeted marketing campaigns.
 
-Maintain a Balanced Sales Strategy
+### Sales Channel Performance
 
-Continue investing in both Online and Offline sales channels while identifying opportunities to enhance customer experience and increase digital engagement.
+- Online and Offline sales channels contribute almost equally to total revenue and profit, demonstrating a well-balanced sales strategy across both channels.
 
-Monitor Business Performance Continuously
+### Operational Performance
 
-Regularly monitor Year-over-Year KPIs and operational metrics to identify emerging trends, measure business performance, and support proactive decision-making.
+- The average shipping time of **25.04 days** suggests room for improving logistics efficiency and enhancing customer satisfaction.
+- Although overall revenue and profit increased significantly, **Average Revenue per Order** and **Average Profit per Order** remained relatively unchanged Year-over-Year, indicating that business growth was primarily driven by increased sales volume rather than higher-value transactions.
 
- Skills Demonstrated
+---
 
-This project showcases practical experience in:
+# Business Recommendations
 
-Business Intelligence
-Data Visualization
-Dashboard Design
-Data Cleaning
-Data Transformation
-Power Query
-Data Modeling
-Star Schema Design
-DAX Development
-Time Intelligence
-KPI Development
-Executive Reporting
-Business Analytics
-Data Storytelling
-Performance Analysis
- Dashboard Preview
-Executive Overview
+Based on the insights generated from the dashboard, the following recommendations can help improve business performance and operational efficiency.
 
-Provides executives with a high-level view of business performance, including revenue, profit, order volume, regional analysis, country performance, product contribution, and sales channel distribution.
+## Expand High-Performing Markets
 
-Profit & Operations
+Increase investment in high-performing regions and countries by strengthening distribution networks, expanding product availability, and implementing customer retention strategies to maximize long-term growth.
 
-Delivers operational insights through cost analysis, profitability metrics, shipping performance, monthly profit trends, units sold, and product-level profitability to support strategic operational improvements.
+---
 
-Add your dashboard screenshots here
+## Improve Performance in Low-Revenue Markets
 
-Executive Overview
+Conduct market research to understand the factors limiting performance in lower-revenue countries. Introduce localized marketing campaigns, pricing strategies, and promotional activities to improve market penetration and customer acquisition.
 
-Profit & Operations
+---
 
- Conclusion
+## Focus on High-Performing Product Categories
 
-The Global Sales & Profit Performance Dashboard demonstrates how Business Intelligence can transform a 100,000-row global sales dataset into a comprehensive decision-support solution. Through effective data preparation, robust data modeling, advanced DAX calculations, and intuitive visualizations, the dashboard provides stakeholders with clear visibility into sales performance, profitability, and operational efficiency.
+Allocate additional inventory, marketing resources, and promotional efforts toward high-performing categories such as **Household** and **Office Supplies**, which consistently generate the highest revenue and profit.
 
-By combining financial KPIs, Year-over-Year analysis, geographic insights, and operational metrics within an interactive reporting environment, the solution empowers decision-makers to identify growth opportunities, optimize business performance, and make informed strategic decisions with confidence.
+---
 
-This project highlights not only technical proficiency in Power BI, Power Query, DAX, and data modeling, but also the ability to translate complex business data into actionable insights through effective storytelling and executive-focused dashboard design.
+## Reassess Low-Performing Products
+
+Evaluate the pricing, demand, and profitability of lower-performing categories such as **Fruits** and **Beverages**. Consider repositioning these products, offering targeted promotions, or optimizing inventory levels to improve overall performance.
+
+---
+
+## Optimize Logistics Operations
+
+Reduce average shipping time by improving warehouse operations, strengthening supplier coordination, and partnering with more efficient logistics providers. Faster deliveries can improve customer satisfaction and increase repeat business.
+
+---
+
+## Maintain a Balanced Sales Strategy
+
+Continue investing in both Online and Offline sales channels while identifying new opportunities to improve customer engagement, digital marketing performance, and the overall buying experience.
+
+---
+
+## Monitor Performance Continuously
+
+Regularly monitor Year-over-Year KPIs, profitability metrics, and operational indicators to identify emerging trends early, measure business performance accurately, and support proactive decision-making.
+```
+# Skills Demonstrated
+
+This project demonstrates practical experience across multiple areas of Business Intelligence and Data Analytics, including:
+
+- Business Intelligence Reporting
+- Data Visualization
+- Dashboard Design
+- Data Cleaning and Transformation
+- Power Query
+- Data Modeling
+- Star Schema Design
+- DAX Development
+- Time Intelligence
+- KPI Development
+- Executive Reporting
+- Business Analytics
+- Data Storytelling
+- Performance Analysis
+- Interactive Dashboard Development
+
+---
+
+# Dashboard Preview
+
+## Executive Overview
+
+The Executive Overview page provides decision-makers with a high-level summary of business performance through interactive KPIs, revenue trends, regional analysis, country-level performance, product contribution, and sales channel distribution.
+
+
+## Profit & Operations
+
+The Profit & Operations page delivers deeper operational insights by analyzing profitability, costs, shipping performance, units sold, and product performance. It helps stakeholders understand operational efficiency and identify opportunities to improve business performance.
+
+
+# Conclusion
+
+The **Global Sales & Profit Performance Dashboard** demonstrates how Business Intelligence can transform a **100,000-row global sales dataset** into a comprehensive decision-support solution.
+
+Using **Power BI**, **Power Query**, **DAX**, and a well-structured data model, the project converts complex transactional data into meaningful insights through interactive visualizations and executive-focused reporting.
+
+The dashboard enables stakeholders to monitor key business metrics, evaluate financial performance, analyze regional and country-level sales, assess product profitability, compare sales channels, and measure operational efficiency using Year-over-Year analysis and dynamic KPIs.
+
+Beyond presenting historical performance, the dashboard supports strategic decision-making by highlighting growth opportunities, identifying underperforming areas, and providing actionable recommendations based on data.
+
+This project reflects not only technical proficiency in Business Intelligence tools but also the ability to understand business requirements, build scalable reporting solutions, and communicate insights through effective data storytelling.
+# Author
+
+## Ore Temitope Israel
+
+Aspiring Data Analyst with a passion for transforming raw data into actionable business insights through Business Intelligence, data visualization, and analytical storytelling.
+
+### Connect with me
+
+- LinkedIn: *(Add your LinkedIn profile)*
+- GitHub: *(Add your GitHub profile)*
+- Email: *(oreisrael@gmail.com)
