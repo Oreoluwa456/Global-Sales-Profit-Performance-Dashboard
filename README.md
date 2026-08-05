@@ -45,15 +45,19 @@ The primary objective of this project is to develop a centralized Business Intel
 
 ## Dataset Information
 
-| Attribute | Details |
-|-----------|---------|
-| **Dataset** | Global Sales Dataset |
-| **Dataset Size** | 100,000 Sales Records |
-| **Time Period** | 2010 – 2017 |
-| **Sales Channels** | Online & Offline |
-| **Coverage** | Multiple Countries and Global Regions |
-| **Product Categories** | Multiple Item Types |
-| **Metrics Analyzed** | Revenue, Profit, Cost, Orders, Units Sold, Shipping Days |
+**Dataset:** Global Sales Dataset
+
+**Dataset Size:** 100,000 Sales Records
+
+**Time Period:** 2010 – 2017
+
+**Sales Channels:** Online & Offline
+
+**Coverage:** Multiple Countries and Global Regions
+
+**Product Categories:** Multiple Item Types
+
+**Metrics Analyzed:** Revenue, Profit, Cost, Orders, Units Sold, Shipping Days
 
 # Dashboard Structure
 
@@ -85,12 +89,13 @@ The **Profit & Operations** page provides deeper insight into profitability, cos
 
 ### Operational KPIs
 
-| KPI | Current Value | Year-over-Year Performance |
-|------|--------------:|--------------------------:|
-| **Total Cost** | **94.20 Billion** | **▲ 14.9% vs Previous Year** |
-| **Average Profit per Order** | **394.09K** | **▼ 0.0% vs Previous Year** |
-| **Average Revenue per Order** | **1.34 Million** | **▼ 0.1% vs Previous Year** |
-| **Average Shipping Days** | **25.04 Days** | **▼ 0.1% vs Previous Year** |
+**Total Cost:** **94.20 Billion** | **▲ 14.9% vs Previous Year**
+
+**Average Profit per Order:** **394.09K** | **▼ 0.0% vs Previous Year**
+
+**Average Revenue per Order:** **1.34 Million** | **▼ 0.1% vs Previous Year**
+
+**Average Shipping Days:** **25.04 Days** | **▼ 0.1% vs Previous Year**
 
 ### Dashboard Visuals
 
@@ -168,16 +173,21 @@ Key design considerations include:
 
 # Tools & Technologies Used
 
-| Tool / Technology | Purpose |
-|-------------------|----------|
-| **Power BI Desktop** | Dashboard development and interactive reporting |
-| **Power Query** | Data extraction, cleaning, and transformation |
-| **DAX (Data Analysis Expressions)** | KPI calculations, custom measures, and Time Intelligence |
-| **Data Modeling** | Relationship management and Star Schema implementation |
-| **Calendar Table** | Date intelligence and Year-over-Year analysis |
-| **Power BI Maps** | Country-level geographical analysis |
-| **Interactive Slicers** | Dynamic report filtering |
-| **Conditional Formatting** | KPI indicators and performance highlighting |
+**Power BI Desktop:** Dashboard development and interactive reporting
+
+**Power Query:** Data extraction, cleaning, and transformation
+
+**DAX (Data Analysis Expressions):** KPI calculations, custom measures, and Time Intelligence
+
+**Data Modeling:** Relationship management and Star Schema implementation
+
+**Calendar Table:** Date intelligence and Year-over-Year analysis
+
+**Power BI Maps:** Country-level geographical analysis
+
+**Interactive Slicers:** Dynamic report filtering
+
+**Conditional Formatting:** KPI indicators and performance highlighting
 
 # Key Insights
 
