@@ -64,11 +64,11 @@ The **Executive Overview** page provides a comprehensive snapshot of the company
 ### Executive KPIs
 
 | KPI | Current Value | Year-over-Year Performance |
-|------|--------------:|--------------------------:|
-| **Total Revenue** | **133.61 Billion** | **▲ 14.9% vs Previous Year** |
-| **Total Orders** | **100K** | **▲ 15.0% vs Previous Year** |
-| **Total Profit** | **39.41 Billion** | **▲ 15.0% vs Previous Year** |
-| **Units Sold** | **500 Million** | **▲ 14.9% vs Previous Year** |
+
+**Total Revenue** | **133.61 Billion** | **▲ 14.9% vs Previous Year** |
+**Total Orders** | **100K** | **▲ 15.0% vs Previous Year** |
+**Total Profit** | **39.41 Billion** | **▲ 15.0% vs Previous Year** |
+**Units Sold** | **500 Million** | **▲ 14.9% vs Previous Year** |
 
 ### Dashboard Visuals
 
