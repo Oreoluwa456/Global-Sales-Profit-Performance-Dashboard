@@ -81,7 +81,7 @@ The **Executive Overview** page provides a comprehensive snapshot of the company
 - Revenue by Country
 - Revenue by Item Type
 - Online vs. Offline Revenue Distribution
-- Interactive slicers for Region and Year
+- Interactive slicers Year and Order Priority
 
 ## Profit & Operations
 
