@@ -173,7 +173,7 @@ Key design considerations include:
 - Minimal visual clutter
 - Cross-filtering between visuals
 
-# Tools & Technologies Used
+## 5 Tools & Technologies Used
 
 - Power BI Desktop:** Dashboard development and interactive reporting
 - Power Query:** Data extraction, cleaning, and transformation
@@ -184,7 +184,7 @@ Key design considerations include:
 - Interactive Slicers:** Dynamic report filtering
 - Conditional Formatting:** KPI indicators and performance highlighting
 
-# Key Insights
+## 6 Key Insights
 
 The dashboard reveals several important business insights that can support strategic decision-making.
 
@@ -201,21 +201,21 @@ The dashboard reveals several important business insights that can support strat
 
 - Hungary emerged as the highest revenue-generating country, contributing approximately 0.84 Billion, with Bahrain following closely at nearly 0.84 Billion. Their strong performance highlights their importance as key revenue-generating markets, while the variation in revenue across other countries provides valuable insight for identifying growth opportunities and optimizing market-specific strategies.
 
-# Product Performance
+### Product Performance
 
 - Household and Office Supplies generated the highest revenue, making them the company's strongest-performing product categories.
 - Fruits and Beverages contributed the least revenue, indicating opportunities for pricing optimization, product repositioning, or targeted marketing campaigns.
 
-# Sales Channel Performance
+### Sales Channel Performance
 
 - Offline sales generated 50.04% of total revenue, while Online sales contributed 49.96%. The nearly equal distribution demonstrates a balanced sales strategy, suggesting that both channels play an equally important role in driving overall business performance.
 
-# Operational Performance
+### Operational Performance
 
 - The average shipping time of **25.04 days** suggests room for improving logistics efficiency and enhancing customer satisfaction.
 - Although overall revenue and profit increased significantly, **Average Revenue per Order** and **Average Profit per Order** remained relatively unchanged Year-over-Year, indicating that business growth was primarily driven by increased sales volume rather than higher-value transactions.
 
-# Business Recommendations
+### Business Recommendations
 
 Based on the insights generated from the dashboard, the following recommendations can help improve business performance and operational efficiency.
 
@@ -247,7 +247,7 @@ Continue investing in both Online and Offline sales channels while identifying n
 
 Regularly monitor Year-over-Year KPIs, profitability metrics, and operational indicators to identify emerging trends early, measure business performance accurately, and support proactive decision-making.
 
-# Skills Demonstrated
+# 7 Skills Demonstrated
 
 This project demonstrates practical experience across multiple areas of Business Intelligence and Data Analytics, including:
 
@@ -267,7 +267,7 @@ This project demonstrates practical experience across multiple areas of Business
 - Performance Analysis
 - Interactive Dashboard Development
 
-# Dashboard Preview
+# 8 Dashboard Preview
 
 ## Executive Overview
 
@@ -280,7 +280,7 @@ The Executive Overview page provides decision-makers with a high-level summary o
 The Profit & Operations page delivers deeper operational insights by analyzing profitability, costs, shipping performance, units sold, and product performance. It helps stakeholders understand operational efficiency and identify opportunities to improve business performance.
 # https://github.com/Oreoluwa456/Global-Sales-Profit-Performance-Dashboard/blob/main/Profit%20And%20Operations.png
 
-# Conclusion
+# 9 Conclusion
 
 The **Global Sales & Profit Performance Dashboard** demonstrates how Business Intelligence can transform a **100,000-row global sales dataset** into a comprehensive decision-support solution.
 
