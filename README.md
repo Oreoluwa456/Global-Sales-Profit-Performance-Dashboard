@@ -47,6 +47,8 @@ The primary objective of this project is to develop a centralized Business Intel
 
 **Dataset:** Global Sales Dataset
 
+**https://www.kaggle.com/datasets/okhiriadaveoseghale/100000-sales-records
+
 **Dataset Size:** 100,000 Sales Records
 
 **Time Period:** 2010 – 2017
@@ -194,14 +196,10 @@ The dashboard reveals several important business insights that can support strat
 - Total operational cost amounted to **94.20 Billion**, increasing by **14.9%**, closely aligning with overall revenue growth.
 
 ### Regional Performance
-
-- Europe and Sub-Saharan Africa emerged as the strongest-performing regions in terms of both revenue and profit.
-- North America generated comparatively lower revenue, suggesting opportunities for market expansion and improved sales strategies.
-
+- Sub-Saharan Africa led regional sales with approximately 35 Billion in revenue, followed closely by Europe at 34 Billion. In contrast, North America recorded the lowest regional revenue at 3 Billion, indicating significant opportunities to strengthen market presence and drive future growth in the region.
 ### Country Performance
 
-- Revenue distribution varies considerably across countries, highlighting key markets that drive overall business performance.
-- Several countries consistently contribute a significant share of revenue, while others present opportunities for future growth through localized business strategies.
+- Hungary emerged as the highest revenue-generating country, contributing approximately 0.84 Billion, with Bahrain following closely at nearly 0.84 Billion. Their strong performance highlights their importance as key revenue-generating markets, while the variation in revenue across other countries provides valuable insight for identifying growth opportunities and optimizing market-specific strategies.
 
 # Product Performance
 
@@ -210,7 +208,7 @@ The dashboard reveals several important business insights that can support strat
 
 # Sales Channel Performance
 
-- Online and Offline sales channels contribute almost equally to total revenue and profit, demonstrating a well-balanced sales strategy across both channels.
+- Offline sales generated 50.04% of total revenue, while Online sales contributed 49.96%. The nearly equal distribution demonstrates a balanced sales strategy, suggesting that both channels play an equally important role in driving overall business performance.
 
 # Operational Performance
 
