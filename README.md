@@ -47,7 +47,7 @@ The primary objective of this project is to develop a centralized Business Intel
 
 **Dataset:** Global Sales Dataset
 
-**https://www.kaggle.com/datasets/okhiriadaveoseghale/100000-sales-records
+- https://www.kaggle.com/datasets/okhiriadaveoseghale/100000-sales-records
 
 **Dataset Size:** 100,000 Sales Records
 
@@ -300,5 +300,5 @@ Aspiring Data Analyst with a passion for transforming raw data into actionable b
 ### Connect with me
 
 - LinkedIn: *(Add your LinkedIn profile)*
-- GitHub: *(Add your GitHub profile)*
+- GitHub: *(https://github.com/Oreoluwa456)*
 - Email: *(oreisrael4@gmail.com)
